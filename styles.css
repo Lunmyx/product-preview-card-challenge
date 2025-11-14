@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Fraunces";
+    src: url(assets/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+.background-body{
+    background-color: hsl(30, 38%, 92%);
+}
+.main-container{
+    width: 34rem;
+    margin: auto;    
+    background-color: hsl(0, 0%, 100%);
+}
+.product {
+    width: 50rem;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+picture img{
+    width: 300px;
+}
+.product-description{
+    width: 14rem;
+    padding-top: 1rem;
+}
+.category{
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+.product-name{
+    font-family: Fraunces;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+}
+.text-description{
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    width: 240px;
+}
